@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AutoKernels": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
