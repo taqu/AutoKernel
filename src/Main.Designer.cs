@@ -105,7 +105,7 @@ namespace AutoKernels
             // 
             splitContainerTop.BorderStyle = BorderStyle.FixedSingle;
             splitContainerTop.Dock = DockStyle.Fill;
-            splitContainerTop.Location = new Point(3, 32);
+            splitContainerTop.Location = new Point(3, 34);
             splitContainerTop.Name = "splitContainerTop";
             // 
             // splitContainerTop.Panel1
@@ -115,8 +115,8 @@ namespace AutoKernels
             // splitContainerTop.Panel2
             // 
             splitContainerTop.Panel2.Controls.Add(splitContainerResult);
-            splitContainerTop.Size = new Size(737, 494);
-            splitContainerTop.SplitterDistance = 356;
+            splitContainerTop.Size = new Size(966, 518);
+            splitContainerTop.SplitterDistance = 466;
             splitContainerTop.TabIndex = 2;
             // 
             // tableLayoutPanelPlan
@@ -129,9 +129,9 @@ namespace AutoKernels
             tableLayoutPanelPlan.Location = new Point(0, 0);
             tableLayoutPanelPlan.Name = "tableLayoutPanelPlan";
             tableLayoutPanelPlan.RowCount = 2;
-            tableLayoutPanelPlan.RowStyles.Add(new RowStyle(SizeType.Percent, 48.9583321F));
-            tableLayoutPanelPlan.RowStyles.Add(new RowStyle(SizeType.Percent, 51.0416679F));
-            tableLayoutPanelPlan.Size = new Size(354, 492);
+            tableLayoutPanelPlan.RowStyles.Add(new RowStyle(SizeType.Percent, 38.3720932F));
+            tableLayoutPanelPlan.RowStyles.Add(new RowStyle(SizeType.Percent, 61.6279068F));
+            tableLayoutPanelPlan.Size = new Size(464, 516);
             tableLayoutPanelPlan.TabIndex = 0;
             // 
             // groupBoxStep
@@ -140,9 +140,9 @@ namespace AutoKernels
             groupBoxStep.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             groupBoxStep.Controls.Add(splitContainerStep);
             groupBoxStep.Dock = DockStyle.Fill;
-            groupBoxStep.Location = new Point(3, 243);
+            groupBoxStep.Location = new Point(3, 201);
             groupBoxStep.Name = "groupBoxStep";
-            groupBoxStep.Size = new Size(348, 246);
+            groupBoxStep.Size = new Size(458, 312);
             groupBoxStep.TabIndex = 1;
             groupBoxStep.TabStop = false;
             groupBoxStep.Text = "Step";
@@ -162,8 +162,8 @@ namespace AutoKernels
             // splitContainerStep.Panel2
             // 
             splitContainerStep.Panel2.Controls.Add(buttonRun);
-            splitContainerStep.Size = new Size(342, 224);
-            splitContainerStep.SplitterDistance = 195;
+            splitContainerStep.Size = new Size(452, 290);
+            splitContainerStep.SplitterDistance = 258;
             splitContainerStep.TabIndex = 0;
             // 
             // listViewStep
@@ -174,7 +174,7 @@ namespace AutoKernels
             listViewStep.Location = new Point(0, 0);
             listViewStep.MultiSelect = false;
             listViewStep.Name = "listViewStep";
-            listViewStep.Size = new Size(342, 195);
+            listViewStep.Size = new Size(452, 258);
             listViewStep.TabIndex = 0;
             listViewStep.TabStop = false;
             listViewStep.UseCompatibleStateImageBehavior = false;
@@ -193,7 +193,7 @@ namespace AutoKernels
             // buttonRun
             // 
             buttonRun.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonRun.Location = new Point(264, -1);
+            buttonRun.Location = new Point(374, 2);
             buttonRun.Name = "buttonRun";
             buttonRun.Size = new Size(75, 23);
             buttonRun.TabIndex = 3;
@@ -209,7 +209,7 @@ namespace AutoKernels
             groupBoxPlan.Dock = DockStyle.Fill;
             groupBoxPlan.Location = new Point(3, 3);
             groupBoxPlan.Name = "groupBoxPlan";
-            groupBoxPlan.Size = new Size(348, 234);
+            groupBoxPlan.Size = new Size(458, 192);
             groupBoxPlan.TabIndex = 0;
             groupBoxPlan.TabStop = false;
             groupBoxPlan.Text = "Plan";
@@ -231,16 +231,16 @@ namespace AutoKernels
             splitContainerPlan.Panel2.Controls.Add(textBoxPlanStatus);
             splitContainerPlan.Panel2.Controls.Add(labelPlanStatus);
             splitContainerPlan.Panel2.Controls.Add(buttonPlan);
-            splitContainerPlan.Size = new Size(342, 212);
-            splitContainerPlan.SplitterDistance = 183;
+            splitContainerPlan.Size = new Size(452, 170);
+            splitContainerPlan.SplitterDistance = 141;
             splitContainerPlan.TabIndex = 0;
             // 
             // textBoxPlan
             // 
-            textBoxPlan.Location = new Point(0, 87);
+            textBoxPlan.Location = new Point(3, 3);
             textBoxPlan.Multiline = true;
             textBoxPlan.Name = "textBoxPlan";
-            textBoxPlan.Size = new Size(362, 102);
+            textBoxPlan.Size = new Size(432, 76);
             textBoxPlan.TabIndex = 1;
             // 
             // textBoxPlanStatus
@@ -268,7 +268,7 @@ namespace AutoKernels
             // buttonPlan
             // 
             buttonPlan.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonPlan.Location = new Point(260, -1);
+            buttonPlan.Location = new Point(370, -1);
             buttonPlan.Name = "buttonPlan";
             buttonPlan.Size = new Size(79, 24);
             buttonPlan.TabIndex = 2;
@@ -288,8 +288,8 @@ namespace AutoKernels
             // splitContainerResult.Panel2
             // 
             splitContainerResult.Panel2.Controls.Add(groupBoxChat);
-            splitContainerResult.Size = new Size(332, 414);
-            splitContainerResult.SplitterDistance = 166;
+            splitContainerResult.Size = new Size(452, 464);
+            splitContainerResult.SplitterDistance = 226;
             splitContainerResult.TabIndex = 1;
             // 
             // groupBoxResult
@@ -298,7 +298,7 @@ namespace AutoKernels
             groupBoxResult.Dock = DockStyle.Fill;
             groupBoxResult.Location = new Point(0, 0);
             groupBoxResult.Name = "groupBoxResult";
-            groupBoxResult.Size = new Size(166, 414);
+            groupBoxResult.Size = new Size(226, 464);
             groupBoxResult.TabIndex = 0;
             groupBoxResult.TabStop = false;
             groupBoxResult.Text = "Result";
@@ -310,7 +310,7 @@ namespace AutoKernels
             richTextBoxResult.Location = new Point(3, 19);
             richTextBoxResult.Name = "richTextBoxResult";
             richTextBoxResult.ReadOnly = true;
-            richTextBoxResult.Size = new Size(160, 392);
+            richTextBoxResult.Size = new Size(220, 442);
             richTextBoxResult.TabIndex = 0;
             richTextBoxResult.TabStop = false;
             richTextBoxResult.Text = "";
@@ -321,7 +321,7 @@ namespace AutoKernels
             groupBoxChat.Dock = DockStyle.Fill;
             groupBoxChat.Location = new Point(0, 0);
             groupBoxChat.Name = "groupBoxChat";
-            groupBoxChat.Size = new Size(162, 414);
+            groupBoxChat.Size = new Size(222, 464);
             groupBoxChat.TabIndex = 0;
             groupBoxChat.TabStop = false;
             groupBoxChat.Text = "Chat";
@@ -341,8 +341,8 @@ namespace AutoKernels
             // 
             splitContainerChat.Panel2.Controls.Add(buttonChatSend);
             splitContainerChat.Panel2.Controls.Add(textBoxChatInput);
-            splitContainerChat.Size = new Size(156, 392);
-            splitContainerChat.SplitterDistance = 321;
+            splitContainerChat.Size = new Size(216, 442);
+            splitContainerChat.SplitterDistance = 361;
             splitContainerChat.TabIndex = 0;
             // 
             // textBoxChatOutput
@@ -352,12 +352,12 @@ namespace AutoKernels
             textBoxChatOutput.Multiline = true;
             textBoxChatOutput.Name = "textBoxChatOutput";
             textBoxChatOutput.ReadOnly = true;
-            textBoxChatOutput.Size = new Size(128, 261);
+            textBoxChatOutput.Size = new Size(189, 330);
             textBoxChatOutput.TabIndex = 0;
             // 
             // buttonChatSend
             // 
-            buttonChatSend.Location = new Point(100, 38);
+            buttonChatSend.Location = new Point(148, 48);
             buttonChatSend.Name = "buttonChatSend";
             buttonChatSend.Size = new Size(53, 26);
             buttonChatSend.TabIndex = 1;
@@ -370,16 +370,16 @@ namespace AutoKernels
             textBoxChatInput.Location = new Point(3, 3);
             textBoxChatInput.Multiline = true;
             textBoxChatInput.Name = "textBoxChatInput";
-            textBoxChatInput.Size = new Size(137, 33);
+            textBoxChatInput.Size = new Size(198, 33);
             textBoxChatInput.TabIndex = 0;
             // 
             // groupBoxLog
             // 
             groupBoxLog.Controls.Add(textBoxLog);
             groupBoxLog.Dock = DockStyle.Fill;
-            groupBoxLog.Location = new Point(3, 532);
+            groupBoxLog.Location = new Point(3, 558);
             groupBoxLog.Name = "groupBoxLog";
-            groupBoxLog.Size = new Size(737, 96);
+            groupBoxLog.Size = new Size(966, 96);
             groupBoxLog.TabIndex = 3;
             groupBoxLog.TabStop = false;
             groupBoxLog.Text = "Log";
@@ -394,7 +394,7 @@ namespace AutoKernels
             textBoxLog.Name = "textBoxLog";
             textBoxLog.ReadOnly = true;
             textBoxLog.ScrollBars = ScrollBars.Both;
-            textBoxLog.Size = new Size(731, 74);
+            textBoxLog.Size = new Size(960, 74);
             textBoxLog.TabIndex = 0;
             textBoxLog.TabStop = false;
             textBoxLog.WordWrap = false;
@@ -412,14 +412,14 @@ namespace AutoKernels
             tableLayoutPanelTop.RowStyles.Add(new RowStyle(SizeType.Percent, 5.581395F));
             tableLayoutPanelTop.RowStyles.Add(new RowStyle(SizeType.Percent, 94.4186F));
             tableLayoutPanelTop.RowStyles.Add(new RowStyle(SizeType.Absolute, 101F));
-            tableLayoutPanelTop.Size = new Size(743, 631);
+            tableLayoutPanelTop.Size = new Size(972, 657);
             tableLayoutPanelTop.TabIndex = 4;
             // 
             // toolStripMain
             // 
             toolStripMain.Location = new Point(0, 0);
             toolStripMain.Name = "toolStripMain";
-            toolStripMain.Size = new Size(743, 25);
+            toolStripMain.Size = new Size(972, 25);
             toolStripMain.TabIndex = 1;
             toolStripMain.Text = "toolStrip1";
             // 

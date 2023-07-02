@@ -75,6 +75,7 @@ public class ChatAgent
             if(rawResult is Azure.AI.OpenAI.ChatCompletions)
             {
                 Azure.AI.OpenAI.ChatCompletions completions = rawResult as Azure.AI.OpenAI.ChatCompletions;
+                history.tokens_ += completions.Usage.CompletionTokens;
                 for (int i=0; i<completions.Choices.Count; ++i)
                 {
                     history.response_.Add(string.Format("{0}", completions.Choices[i].Message.Content));

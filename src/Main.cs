@@ -2,11 +2,14 @@ using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel.Orchestration;
 using Microsoft.SemanticKernel.Planning;
 using Microsoft.SemanticKernel.SkillDefinition;
+using System.Text;
 
 namespace AutoKernels
 {
     public partial class Main : Form
     {
+        private StringBuilder stringBuilder = new StringBuilder(1024);
+
         public Main()
         {
             InitializeComponent();
@@ -72,7 +75,11 @@ namespace AutoKernels
             try
             {
                 SKContext context = await Context.Agent.ChatAgent.Run(input);
-                textBoxChatOutput.AppendText(context.Result);
+                stringBuilder.Length = 0;
+                stringBuilder.Append("[*]:");
+                stringBuilder.Append(context.Result);
+                stringBuilder.Append(System.Environment.NewLine);
+                textBoxChatOutput.AppendText(stringBuilder.ToString());
             }
             catch
             {
